@@ -12,7 +12,7 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 import os
 import shutil
-import urllib2
+import urllib.request as urllib2
 import zipfile
 
 import ida_diskio
