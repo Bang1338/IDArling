@@ -87,7 +87,7 @@ Install the IDArling client into the IDA plugins folder.
 line into the console:
 
 ```
-import urllib2; exec(urllib2.urlopen('https://raw.githubusercontent.com/fidgetingbits/IDArling/master/easy_install.py')).read()
+import urllib.request as urllib2; exec(urllib2.urlopen('https://raw.githubusercontent.com/Bang1338/IDArling/master/easy_install.py')).read()
 ```
 
 ### Integrated server
